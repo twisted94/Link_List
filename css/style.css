@@ -69,8 +69,8 @@ a p:hover {
 
 /* Container for the heading of the page */
 #masthead {
-    height: 100px;
-    background-image: url('../images/bg-heading.jpeg');
+    height: 100px; /* Sets the height of the container */
+    background-image: url('../images/bg-heading.jpeg'); /* Background image */
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
