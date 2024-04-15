@@ -1,3 +1,6 @@
+/*====================
+===== MAIN TAGS ======
+====================*/
 body {
     background-color: antiquewhite;
     margin: 0;
@@ -32,7 +35,9 @@ a {
     text-decoration: none;
     color: black;
 }
-a:hover {
+
+/* Hover changes the styleing depending if the curser is hovering of the area */
+a:hover { 
     color: white;
 }
 a p{
@@ -42,13 +47,20 @@ a p{
 a p:hover {
     background-color: #666;
 }
+
+/*====================
+====== ID TAGS =======
+====================*/
+/* Contains all the information on the webpage, as well as centering teh information and giving it a background image */
 #container {
     width: 800px;
     margin-left: auto;
     margin-right: auto;
-    background-image: url('../images/photo-bkg.jpg');
+    background-image: url('../images/.jpg');
     padding-bottom: 20px;
 }
+
+/* Container for the heading of the page */
 #masthead {
     height: 100px;
     background-image: url('../images/buddha.jpg');
@@ -56,12 +68,18 @@ a p:hover {
     background-size: cover;
     background-position: center;
 }
+
+/* Contains all the links setting the width of the container */
 #links-block {
     width: 50%;
 }
+
+/* Style for the main contetn on the web page */
 #content-holder {
     position: relative;
 }
+
+/* Positions the image of the flower */
 #trans-flower {
     width: 200px;
     position: absolute;
