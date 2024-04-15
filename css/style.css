@@ -35,20 +35,18 @@ p {
     color: #fff;
 }
 a {
-    text-decoration: none;
-    color: #fff;
-}
-
-/* Hover changes the styleing depending if the curser is hovering of the area */
-a:hover { 
-    color: white;
+    text-decoration: none; /* Takes all decorations away from the link text */
 }
 a p{
-    column-count: 1;
-    background-color: rgba(137, 137, 137, 0.129);
+    column-count: 1; /* Creates 1 colum for the paragraph text with in the link tag */
+    color: white; /* Sets the colour of the text */
+    background-color: rgba(137, 137, 137, 0.15); /* sets the background colour using rgba so can set the oppactity as well as the colour */
+    transition: 0.3s ease; /* Creates a timed transition between the changes when being hovered over */
 }
 a p:hover {
-    background-color: #4c4c4c;
+    color: black; /* Sets the colour of the text */
+    background-color: #e4e4e4; /* sets the background colour */
+    transition: 0.3s ease; /* Creates a timed transition between the changes when being hovered over */
 }
 
 /*====================
@@ -74,15 +72,15 @@ a p:hover {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    background-position: bottom;
+    background-position: bottom; /* Sets the bottom of the image to be the achor point*/
 }
 
 /* Contains all the links setting the width of the container */
 #links-block {
-    width: 50%;
+    width: 50%; /* Make the width responsive to the scakle of the screen so that it will alwasy sit at 50% of the containers width */
 }
 
-/* Style for the main contetn on the web page */
+/* Style for the main content on the web page */
 #content-holder {
     position: relative;
 }
